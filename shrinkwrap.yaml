@@ -1,5 +1,6 @@
 dependencies:
   '@angular/animations': 5.2.4
+  '@angular/cdk': 5.2.0
   '@angular/common': 5.2.4
   '@angular/compiler': 5.2.4
   '@angular/core': 5.2.4
@@ -87,6 +88,15 @@ packages:
       '@angular/core': 5.2.4
     resolution:
       integrity: sha512-kLOUORV/2GdYsNSwmUsB3eEL+nAoBZYKgibYLkVy6oecrIbdFMWiNzLcFjX/avcMnb1UNMk24Hd7Of4C2UawPA==
+  /@angular/cdk/5.2.0:
+    dependencies:
+      tslib: 1.9.0
+    dev: false
+    peerDependencies:
+      '@angular/common': ^5.0.0
+      '@angular/core': ^5.0.0
+    resolution:
+      integrity: sha1-Q2j2dJ6RXNzHXTJa4z/bP4WogQg=
   /@angular/cli/1.6.8:
     dependencies:
       '@angular-devkit/build-optimizer': 0.0.42
@@ -8951,6 +8961,7 @@ shrinkwrapMinorVersion: 4
 shrinkwrapVersion: 3
 specifiers:
   '@angular/animations': ^5.2.0
+  '@angular/cdk': ^5.2.0
   '@angular/cli': 1.6.8
   '@angular/common': ^5.2.0
   '@angular/compiler': ^5.2.0

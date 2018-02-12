@@ -1,9 +1,11 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {MAT_LABEL_GLOBAL_OPTIONS} from '@angular/material';
 
 
-import { AppComponent } from './app.component';
-import { NavComponent } from './elements/nav/nav.component';
+import {AppComponent} from './app.component';
+import {NavComponent} from './elements/nav/nav.component';
+import {MaterialModule} from './material.component';
 
 
 @NgModule({
@@ -12,9 +14,13 @@ import { NavComponent } from './elements/nav/nav.component';
     NavComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MaterialModule
   ],
-  providers: [],
+  providers: [
+    {provide: MAT_LABEL_GLOBAL_OPTIONS, useValue: {float: 'always'}}
+  ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
