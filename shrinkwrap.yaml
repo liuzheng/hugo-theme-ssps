@@ -15,6 +15,7 @@ dependencies:
   core-js: 2.5.3
   font-awesome: 4.7.0
   jquery: 3.3.1
+  material-design-icons: 3.0.1
   ngx-cookie-service: 1.0.10
   ngx-progressbar: 2.1.1
   npm-font-open-sans: 1.1.0
@@ -5014,6 +5015,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
+  /material-design-icons/3.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-mnHEh0chjrylHlGmbaaCA4zct78=
   /math-expression-evaluator/1.2.17:
     dev: true
     resolution:
@@ -8990,6 +8995,7 @@ specifiers:
   karma-coverage-istanbul-reporter: ^1.2.1
   karma-jasmine: ~1.1.0
   karma-jasmine-html-reporter: ^0.2.2
+  material-design-icons: ^3.0.1
   ngx-cookie-service: ^1.0.10
   ngx-progressbar: ^2.1.1
   npm-font-open-sans: ^1.1.0
